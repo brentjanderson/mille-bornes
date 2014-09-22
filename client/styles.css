@@ -1,0 +1,22 @@
+/* CSS declarations go here */
+/*.card img {
+	width: 75%;
+	height: 75%;
+}*/
+
+.card-horiz div {
+	display: inline-block;
+}
+
+.card-horiz div.card-bonus {
+margin-left: 20px;
+	margin-right: 20px;
+}
+
+.card.card-bonus img {
+	transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	-ms-transform:rotate(90deg);
+	-moz-transform:rotate(90deg);
+	-webkit-transform:rotate(90deg);
+}

@@ -1,0 +1,20 @@
+<template name="board">
+	<div class="card-horiz">
+		<!-- Safeties -->
+		{{#each safety}}
+		{{> card}}
+		{{/each}}
+		<div class="spacer"></div>
+		<!-- Battle -->
+		{{#each battle}}
+		{{> card}}
+		{{/each}}
+		<!-- Speed -->
+		{{#each speed}}
+		{{> card}}
+		{{/each}}
+	</div>
+	<div class="card-horiz">
+
+	</div>
+</template>
